@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DjangoModelDependency</ID>
+  <OriginalElement>#product_api</OriginalElement>
+  <nodes>
+    <node x="0.0" y="77.0">products.models.ProductAttribute</node>
+    <node x="96.75" y="0.0">products.models.Products</node>
+    <node x="82.75" y="154.0">products.models.ProductPrice</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="products.models.ProductPrice" target="products.models.Products">
+      <point x="56.5" y="-13.5" />
+      <point x="252.25" y="129.0" />
+      <point x="264.5" y="129.0" />
+      <point x="264.5" y="52.0" />
+      <point x="245.25" y="52.0" />
+      <point x="49.5" y="13.5" />
+    </edge>
+    <edge source="products.models.ProductPrice" target="products.models.ProductAttribute">
+      <point x="-56.5" y="-13.5" />
+      <point x="139.25" y="129.0" />
+      <point x="127.0" y="129.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="products.models.ProductAttribute" target="products.models.Products">
+      <point x="0.0" y="-13.5" />
+      <point x="127.0" y="52.0" />
+      <point x="146.25" y="52.0" />
+      <point x="-49.5" y="13.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="154.5" y="90.5" />
+  <SelectedNodes>
+    <node>products.models.ProductPrice</node>
+  </SelectedNodes>
+  <Categories />
+</Diagram>
+
