@@ -3,7 +3,7 @@ This repository for build api for products
 
 Deploy Procedure:
 
-1. pip install djangoframework
+1. pip install django
 2. pip install djangorestframework
 3. products > settings > INSTALLED_APPS [.....  'rest_framewor','product_api']
 4. python manage.py makemigrations
