@@ -5,7 +5,7 @@ Deploy Procedure:
 
 1. pip install django
 2. pip install djangorestframework
-3. products > settings > INSTALLED_APPS [.....  'rest_framewor','product_api']
+3. products > settings > INSTALLED_APPS [.....  'rest_framework','products']
 4. python manage.py makemigrations
 5. python manage.py migrate
 6. python manage.py runserver
