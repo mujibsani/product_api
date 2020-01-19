@@ -1,7 +1,7 @@
 # product_api
 This repository for build api for products
 
-Deploy Procedure:
+Environment Setup and run:
 
 1. pip install django
 2. pip install djangorestframework
